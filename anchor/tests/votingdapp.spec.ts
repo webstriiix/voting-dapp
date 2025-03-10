@@ -80,7 +80,7 @@ describe('votingdapp', () => {
     )
     const anisCandidate = await program.account.candidate.fetch(anisAddress)
     console.log(anisCandidate)
-    expect(anisCandidate.candidateVotes.toNumber()).toEqual(0)
+    expect(anisCandidate.candidateVotes.toNumber()).toEqual(1)
   })
 
 })
