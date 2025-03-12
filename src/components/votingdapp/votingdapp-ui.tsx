@@ -2,8 +2,8 @@
 
 import { Keypair, PublicKey } from '@solana/web3.js'
 import { useMemo } from 'react'
-import { ellipsify } from '../ui/ui-layout'
 import { ExplorerLink } from '../cluster/cluster-ui'
+import { ellipsify } from '../ui/ui-layout'
 import { useVotingdappProgram, useVotingdappProgramAccount } from './votingdapp-data-access'
 
 export function VotingdappCreate() {
